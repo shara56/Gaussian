@@ -1,27 +1,21 @@
-# Gaussian Elimination
+## Gaussian Elimination
 
 ## AIM:
 To write a program to find the solution of a matrix using Gaussian Elimination.
-
 ## Equipments Required:
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
-
 ## Algorithm
 1. import numpy 
 2. import sys
 3. get the input from the users
 4. use nested for loop
 5. print the solved matrix using gaussian elemination without partial pivoting
-
-
 ## Program:
 ```python
-/*
-Program to find the solution of a matrix using Gaussian Elimination.
-Developed by: sharangini
-RegisterNumber: 22003363 
-*/
+#Program to find the solution of a matrix using Gaussian Elimination.
+#Developed by: sharangini
+#RegisterNumber: 22003363 
 import numpy as np
 import sys
 n=int(input())
@@ -50,11 +44,8 @@ for i in range(n-2, -1,-1):
 for i in range(n):
     print('X%d = %0.2f'%(i,x[i]),end=' ')
 ```
-
 ## Output:
 ![output](/gaussian.png)
-
-
 ## Result:
 Thus the program to find the solution of a matrix using Gaussian Elimination is written and verified using python programming.
 
